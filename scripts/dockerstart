@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo rm -rf /data/endurance-team-3
+cd /data
+sudo git clone git@github.com:archisacademy/endurance-team-3.git;
+cd /data/endurance-team-3/car-rental-client-side
+ls
+sudo docker-compose build --no-cache || true
+sudo docker-compose up -d

@@ -1,0 +1,23 @@
+.featured-cars-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.featured-cars-title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 24px 0;
+    position: relative;
+}
+
+.featured-cars-title:after{
+    content: "";
+    background-image: url("../../images/arrow-right.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin: 7px 10px;
+}

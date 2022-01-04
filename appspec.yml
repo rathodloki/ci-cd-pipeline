@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+ - source: .
+   destination: /data/endurance-team-3
+hooks:
+  AfterInstall:
+   - location: scripts/dockercleanup
+     timeout: 300
+     runas: root
+  ApplicationStart:
+   - location: scripts/dockerstart
+     timeout: 300
+     runas: root

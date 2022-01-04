@@ -1,0 +1,90 @@
+.header-admin-block {
+    background-color: #222222;
+    display: flex;
+    padding: 10px;
+    color: #999999;
+}
+
+.header-admin-block-edit {
+    flex:1;
+}
+
+.header-admin-block-edit button {
+    border: 0;
+    color: #999999;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #222222;
+    background: url("../../images/edit-Icon.svg") no-repeat left;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+.header-sections {
+    display: flex;
+    padding: 20px 0;
+}
+
+.header-logo {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    margin-right: 15px;
+    border: 0;
+    background-color: transparent;
+}
+
+.header-logo-transform {
+    position: absolute;
+    transform: rotate(-97.83deg);
+}
+
+.header-navigation {
+    flex: 1;
+}
+
+.header-navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.header-navigation-link {
+    padding: 10px;
+    margin: 0 18px;
+    width: 18px;
+    height: 18px;
+    box-sizing: content-box;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-navigation-link-home {
+    position: relative;
+}
+
+.header-navigation-link-home:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #FF8B8B;
+    position: absolute;
+    border-radius: 3px 3px 3px 3px;
+    bottom: 0;
+    left: calc(50% - 3px);
+}
+
+@media screen and (max-width: 768px) {
+    .header-sections {
+        padding: 10px 0;
+        flex-direction: column;
+    }
+
+    .header-search {
+        margin-top: 15px;
+    }
+}

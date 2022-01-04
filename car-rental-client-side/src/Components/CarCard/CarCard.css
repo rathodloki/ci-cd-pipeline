@@ -1,0 +1,72 @@
+.car-card{
+    background: #222222;
+    padding: 0 0 20px 0;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.car-image {
+    display: block;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.car-image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: contain;
+
+}
+
+.category{
+    padding: 4px 8px;
+    background: #FFCCCC;
+    border-radius: 24px;
+    display: inline-block;
+    margin:20px 0 0 20px;
+    /* Mobile/Small copy */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #880000;
+
+
+/* Inside Auto Layout */
+
+
+    
+}
+
+.car-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF;
+    margin:20px 0 0 20px;
+}
+.star{
+    height: 20px;
+    width: 20px;
+    background-image: url("../../images/Vector.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.star-wrapper{
+    margin-left: 20px;
+    display: block;
+    margin-top: 15px;
+}

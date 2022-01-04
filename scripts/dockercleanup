@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo docker stop car-rental-client-side_react_1 || true && docker rm car-rental-client-side_react_1 || true
